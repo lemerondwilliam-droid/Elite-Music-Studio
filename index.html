@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Sound Studio | Professional Recording Studio</title>
+
+<meta name="description" content="Elite Sound Studio offers premium recording, mixing, and production studio time. Book high-quality studio sessions today.">
+
+<style>
+:root {
+  --dark: #0f1115;
+  --dark2: #1b1f2a;
+  --gold: #d4af37;
+  --gold-soft: #f1d57a;
+  --light: #f5f5f5;
+  --gray: #9ea3b0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to bottom, var(--dark), var(--dark2));
+  color: var(--light);
+  line-height: 1.6;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 30px;
+  background: rgba(15,17,21,0.95);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+}
+
+nav img {
+  height: 55px;
+}
+
+nav a {
+  color: var(--light);
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 25px;
+  transition: color .3s;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: radial-gradient(circle at top, #222 0%, #0f1115 70%);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero span {
+  color: var(--gold);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: auto;
+  color: var(--gray);
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 18px 45px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 50px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-soft));
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  transition: transform .3s;
+}
+
+.hero a:hover {
+  transform: scale(1.06);
+}
+
+/* SECTIONS */
+.section {
+  max-width: 1100px;
+  margin: 70px auto;
+  padding: 0 25px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #181b24;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  transition: transform .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: var(--gold);
+}
+
+/* PRICING */
+.price {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--gold);
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  background: linear-gradient(135deg, #1b1f2a, #0f1115);
+  padding: 70px 25px;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+}
+
+.cta p {
+  color: var(--gray);
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 20px auto 35px;
+}
+
+.cta a {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gold), var(--gold-soft));
+  color: #000;
+  padding: 20px 45px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  transition: transform .3s;
+}
+
+.cta a:hover {
+  transform: scale(1.08);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0b0d11;
+  color: var(--gray);
+  font-size: .9rem;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <img src="logo.png" alt="Elite Sound Studio Logo">
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Studio</a>
+    <a href="#">Rates</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1><span>Elite</span> Sound Studio</h1>
+  <p>
+    A premium recording environment designed for artists, producers,
+    and creators who demand world-class sound.
+  </p>
+  <a href="#">Book Studio Time</a>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+  <h2>Our Studio Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Recording Sessions</h3>
+      <p>Industry-standard microphones, acoustics, and equipment.</p>
+    </div>
+    <div class="card">
+      <h3>Mixing & Mastering</h3>
+      <p>Professional-grade sound polish for streaming and radio.</p>
+    </div>
+    <div class="card">
+      <h3>Production Support</h3>
+      <p>On-site engineers to help bring your sound to life.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section">
+  <h2>Studio Rates</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Hourly</h3>
+      <p class="price">$75/hr</p>
+      <p>Perfect for short sessions & demos.</p>
+    </div>
+    <div class="card">
+      <h3>Half Day</h3>
+      <p class="price">$300</p>
+      <p>4-hour focused recording block.</p>
+    </div>
+    <div class="card">
+      <h3>Full Day</h3>
+      <p class="price">$550</p>
+      <p>8 hours of uninterrupted studio time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="cta">
+    <h2>Ready to Create?</h2>
+    <p>
+      Book time at Elite Sound Studio and experience
+      professional sound in a creative, comfortable environment.
+    </p>
+    <a href="#">Reserve Your Session</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Elite Sound Studio • Professional Recording Environment
+</footer>
+
+</body>
+  </html>
+  
